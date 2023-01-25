@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Adivinhe o numero</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <main class="container">
+    <div class="guess">
+        <div class="title">
+          <h1>Adivinhe o numero.</h1>
+        </div>
+    
+        <div class="input-field">
+          <label for="nbm">Tente adivinhar em 3 tentativas um numero entre 1 e 10.</label>
+          <input type="number" id="inputGuess" placeholder="Digite aqui">
+          
+        </div>
+
+      <div class="content-response">
+          <div id="response">
+            <p id="guesses"></p>
+            
+          </div>
+      </div>
+      
+        <input type="button" class="guess-btn" value="adivinhar">
+      
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>
